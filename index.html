@@ -26,10 +26,16 @@
       transition:1s;
       position: relative;
       top:0;
+      z-index: 0;
     }
 
     .box:hover{
-      top:-10px;
+      z-index: 100;
+      transform: scale(2);
+    }
+    .nofont{
+      position:relative;
+      left:-2000px;
     }
   </style>
   <script src="array.js" charset="utf-8"></script>
