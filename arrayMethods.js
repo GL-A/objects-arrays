@@ -25,7 +25,9 @@ ary.fill(5)
 
 .indexOf(item)
 //Retuns the index of the item, or -1 if the item is not found.
-
+var arr1 = [1,2,4,5,6,7,8,9];
+arr1.indexOf(7);//3
+arr1.indexOf('chees')//-1 doesnt find
 .contains(item)
 //Returns true if the array contains the item, false if it does not.
 

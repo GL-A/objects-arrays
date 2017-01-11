@@ -1,0 +1,9 @@
+how to copy an object
+var objCopyMe = {
+stuff: ""
+}
+var copyOfObj = Object.assign({}),objCopyMe);
+
+for (var in key in copyOfObject){
+
+}
